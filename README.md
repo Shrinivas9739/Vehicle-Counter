@@ -19,6 +19,9 @@ pip install opencv-python numpy
 Code Overview:
 
 1)Background Subtraction: Detects moving objects (vehicles) by separating them from the background.
-2)Morphological Transformations: Refines the binary mask to improve the shape and connectivity of detected vehicles.
+
+2)Morphological Transformations: Refines the binary mask to improve the shape and connectivity of detected vehicles
+.
 3)Contour Detection: Finds the boundaries of each detected vehicle and counts them when they cross the counting line.
+
 4)Bounding Boxes: Draws a rectangle around each detected vehicle and updates the count in real-time.
