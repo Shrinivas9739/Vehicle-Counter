@@ -6,7 +6,11 @@ Features:
 2)Uses background subtraction to distinguish moving vehicles from the static background.
 3)Displays a real-time count of vehicles and shows bounding boxes around detected vehicles.
 
-Prerequisites
+Prerequisites:
+
 1)Python 3.x
 2)OpenCV
 3)NumPy
+
+I)Install the required packages by running:
+pip install opencv-python numpy
