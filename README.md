@@ -1,22 +1,24 @@
 This project is a Python-based vehicle counting system that uses OpenCV to detect and count vehicles in a video stream. The program processes each frame to identify moving vehicles and counts them as they cross a specified line. This is done through background subtraction, morphological transformations, and contour detection.
 
-Features:
+**Features**:
 
 1)Counts vehicles in real-time as they cross a designated counting line.
 2)Uses background subtraction to distinguish moving vehicles from the static background.
 3)Displays a real-time count of vehicles and shows bounding boxes around detected vehicles.
 
-Prerequisites:
+**Prerequisites:**
 
 1)Python 3.x
+
 2)OpenCV
+
 3)NumPy
 
-I)Install the required packages by running:
+**Install the required packages by running:**
 
 pip install opencv-python numpy
 
-Code Overview:
+**Code Overview:**
 
 1)Background Subtraction: Detects moving objects (vehicles) by separating them from the background.
 
@@ -26,7 +28,7 @@ Code Overview:
 
 4)Bounding Boxes: Draws a rectangle around each detected vehicle and updates the count in real-time.
 
-Code Explanation:
+**Code Explanation:**
 
 I)Initialization: Opens the video, sets parameters for counting, and initializes the background subtractor.
 
@@ -42,7 +44,7 @@ II.4)Contour Detection: Finds each vehicle’s contour and draws bounding boxes 
 
 II.5)Counting: Updates the vehicle count whenever a vehicle crosses the counting line.
 
-The program displays:
+**The program displays:**
 
 1)Real-time video with detected vehicles and a bounding box for each vehicle.
 
